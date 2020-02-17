@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
-Fri Feb 14 11:09:24 PST 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0170-451b-08ee-000003de5248 
+Mon Feb 17 14:14:36 PST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0170-5537-ab82-0000099fc460 
 on database directory /home/lavish/startupFunding/Notebooks/metastore_db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27 
 Loaded from file:/home/lavish/spark/jars/derby-10.12.1.1.jar
 java.vendor=Ubuntu
