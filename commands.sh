@@ -86,8 +86,4 @@ $KAFKA_HOME/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --to
 
 spark-submit --class org.pramerica.sparkHello --master local[8] Intern.jar
 
-segregatedDF = featureDF.select('CATEGORY',
-                                'FEATURES',
-                                'TOTAL').groupBy('CATEGORY').agg(F.collect_list('FEATURES').alias('FEATURES'),
-                                                                 (F.collect_list('TOTAL').alias('TOTAL')))
-segregatedDF.show(5)
+
