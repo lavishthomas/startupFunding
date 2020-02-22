@@ -62,7 +62,7 @@ git push origin master
 
 git pull origin master
 git add -A
-git commit -m "Notebooks commented"
+git commit -m "Updated ReadMe"
 git push origin master
 
 sudo python3 -m pip uninstall pip && sudo apt install python3-pip --reinstall
