@@ -49,13 +49,20 @@ git config --global user.email "lavishthomas@gmail.com"
 git config --global user.name "Lavish Thomas"
 
 git clone git@github.com:lavishthomas/startupFunding.git
-git pull origin master
+
+
 git add *
 git add -A
 
 git add $(git rev-parse --show-toplevel)
 
 git commit -m "data check in"
+git push origin master
+
+
+git pull origin master
+git add -A
+git commit -m "Notebooks commented"
 git push origin master
 
 sudo python3 -m pip uninstall pip && sudo apt install python3-pip --reinstall
